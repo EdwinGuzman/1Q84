@@ -1,0 +1,44 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding:0;
+}
+
+#wrap {
+	min-height: 100%;
+}
+
+#main {
+	overflow: auto;
+	padding-bottom: 160px;/* must be the same as height of footer*/
+}
+
+footer {
+	position: relative;
+	margin-left: auto;
+	margin-top: -150px; /*neg value of footer height*/
+	height: 150px;
+	clear: both;
+	background: black;
+	color: #fff;
+}
+
+#footer_text {
+	padding-left: 100px;
+	padding-top: 60px;
+}
+
+/*opera fix*/
+body:before {
+	content: "";
+	height: 100%;
+	float: left;
+	width: 0;
+	margin-top: -32767px;
+}
+
+<!--[if !IE 7]>
+	<style type="text/css">
+		#wrap { display: table; height: 100% }
+	</style>
+<![endif]-->

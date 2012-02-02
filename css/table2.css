@@ -1,0 +1,104 @@
+table {
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1.4em;
+	font-style: normal;
+	border-collapse: separate;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+table caption {
+	font-weight: bold;
+	text-align:left;
+	font-size:15px;
+	padding-bottom: 10px;
+	color: #fff;
+}
+
+table#first_table thead tr .header {
+	background-image: url('../blue/bg.gif');
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table#first_table thead tr .headerSortUp {
+	background-image: url('../blue/asc.gif');
+}
+table#first_table thead tr .headerSortDown {
+	background-image: url('../blue/desc.gif');
+}
+
+table thead th {
+	padding: 15px;
+	color: #fff;
+	text-shadow: 1px 1px 1px #568F23;
+	border: 1px solid #9ed929;
+	background-color:#9d929;
+	background: -webkit-gradient(
+		linear, left bottom, left top,
+		color-stop(0.02, rgb(123, 192, 67)),
+		color-stop(0.51, rgb(139, 198, 66)),
+		color-stop(0.87, rgb(158, 217, 41))
+		);
+	background: -moz-linear-gradient(
+		center bottom,
+		rgb(123, 192, 67) 2%,
+		rgb(139, 198, 66) 51%,
+		rgb(158, 217, 41) 87%,
+	);
+	-webkit-border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-mox-border-radius: 5px 5px 0px 0px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+table thead tr {
+	background-color:#9d929;
+	background: -webkit-gradient(
+		linear, left bottom, left top,
+		color-stop(0.02, rgb(123, 192, 67)),
+		color-stop(0.51, rgb(139, 198, 66)),
+		color-stop(0.87, rgb(158, 217, 41))
+		);
+	background: -moz-linear-gradient(
+		center bottom,
+		rgb(123, 192, 67) 2%,
+		rgb(139, 198, 66) 51%,
+		rgb(158, 217, 41) 87%,
+	);
+}
+
+table tbody tr:nth-child(odd) {
+	background: #cadef3;
+}
+
+table tbody tr {
+	background-color: #def3ca;
+}
+
+table tbody td {
+	padding: 10px;
+	text-align: center;
+	border: 2px solid #e7efe0;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius:2px;
+	color: #666;
+	text-shadow: 1px 1px 1px #fff;
+}
+
+tbody tr.odd td {
+	background: #cacaf3;
+}
+
+/*
+#header_stay {  
+  padding:10px 20px; 
+  position:fixed; 
+  z-index:2000; 
+  width:100%;
+}
+*/
