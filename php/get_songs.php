@@ -1,22 +1,10 @@
 <?php
-
-	$dbhost = 'localhost';
-	$dbuser = 'root';
-	$dbpwd = '';
-	
-	$conn = mysql_connect($dbhost, $dbuser, $dbpwd) or die ('Error');
-	
-	$dbname = '1q84';
 /*
 
-	$dbhost = 'localhost';
-	$dbuser = 'bitbiker_edwin';
-	$dbpwd = '$andsluv119';
-	
-	$conn = mysql_connect($dbhost, $dbuser, $dbpwd) or die ('Error');
-	
-	$dbname = 'bitbiker_1q84';
+ADD SQL CREDENTIALS HERE
+
 */
+
 	mysql_select_db($dbname) or die ('error');
 	
 	/* for accents */
