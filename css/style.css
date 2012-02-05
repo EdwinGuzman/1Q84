@@ -1,11 +1,22 @@
 body {
 	background-image:url('../images/vertical_cloth.png');
 }
+.i {
+	font-style: italic;
+}
 #header {
 	height: 50px;
 	padding-top: 15px;
 	margin-left: 30px;
 	font-size: 60pt;
+}
+
+#header a {
+	text-decoration: none;
+}
+
+#header a:hover {
+	text-decoration:none;
 }
 #one {
 	color: blue;
@@ -22,21 +33,20 @@ body {
 	opacity: .5;
 }
 
-#left-side-bar {
-	position: absolute;
-	padding: 0 10px 0 10px;
-	background: blue;
-	width: 100px;
-	height: 50px;
-	top: 200px;
-	left: 50px;
+#main-home {
+	margin-top: 70px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	height: auto;
+	display: block;
+	text-align: center;
 }
-
 #main {
 	margin-top: 70px;
 	margin-right: auto;
 	margin-left: auto;
-	width: 1200px;
+	width: 100%;
 	height: auto;
 	display: block;
 	text-align: center;
@@ -54,10 +64,18 @@ li {
 	margin-bottom:10px;
 }
 
+#btn-holder {
+	width: 600px;
+	margin-right:auto; 
+	margin-left: auto;
+}
+
 button::-moz-focus-inner {
   border: 0;
   margin-bottom: 10px;
 }
+
+
   
   /* shiny blue (inspired by rdio iphone interface)
 *******************************************************************************/
@@ -84,7 +102,7 @@ button.shiny-blue {
   -o-box-shadow: inset 0 0 2px 0 rgba(57, 140, 255, 0.8);
   box-shadow: inset 0 0 2px 0 rgba(57, 140, 255, 0.8);
   color: #fff;
-  font: bold 12px "helvetica neue", helvetica, arial, sans-serif;
+  font: bold 14px "helvetica neue", helvetica, arial, sans-serif;
   padding: 7px 0;
   text-shadow: 0 -1px 1px #1a5ad9;
   width: 100%; 

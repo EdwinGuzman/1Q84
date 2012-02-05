@@ -1,0 +1,27 @@
+#video-container {
+	display:none;
+	width: 800px;
+	height: 500px;
+	left: 250px;
+	top: 80px;
+	position: fixed;
+	background: black;
+	color: #fff;
+	
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#video-container h2 {
+	float: left;
+	margin-left: 10px;
+}
+
+p#close-vid{
+	cursor: pointer;
+}
+#close-vid {
+	float: right;
+	margin-right: 10px;
+}

@@ -4,27 +4,60 @@
 	<meta charset="utf-8">
 	<meta name="1q84 songs" content="All the songs from 
 	Haruki Murakami's 1q84 novel">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/table2.css" />
+	<link rel="stylesheet" href="css/tip-yellowsimple.css" />
+	<link rel="stylesheet" href="css/footer.css" />
+	<link rel="stylesheet" href="css/backtop.css" />
+	<link rel="stylesheet" href="css/video.css" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
+	</script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+	<script type="text/javascript" src="js/jquery.stickytableheaders.js"></script>
+	<script type="text/javascript" src="js/jquery.metadata.js"></script>
+	<script type="text/javascript" src="js/jquery.poshytip.js"></script>
+	<script type="text/javascript" src="js/jquery.jscroll.js"></script>
 	<title>1q84</title>
 	</head>
 	<body>
-		<div id="header">
-			<span id="one">1</span><span id="q">Q</span><span id="eight">8</span><span id="four">4</span>
-		</div>
-		<div id="container">
-			<div id="btn-holder">
-				<ul>
-					<li>
-					  <a href="book1.html"><button class="shiny-blue"><h1>Book One</h1></button></a>
-					</li>
-					<li>
-					  <button class="shiny-blue"><h1>Book Two</h1><i>Coming soon<i></button>
-					</li>
-					<li>
-					  <button class="shiny-blue"><h1>Book Three</h1><i>Coming soon<i></button>
-					</li>					
-				</ul>
+		<div id='wrap'>
+			<div id="header">
+				<a href="index.html">
+					<span id="one">1</span><span id="q">Q</span><span id="eight">8</span><span id="four">4</span>
+				</a>
+			</div>
+			<div id="main-home">
+				<div id="btn-holder">
+					<ul>
+						<li>
+						  <a href="book1.html"><button class="shiny-blue"><h1>Book One</h1></button></a>
+						</li>
+						<li>
+						  <button class="shiny-blue"><h1>Book Two</h1><span class='i'>Coming soon</span></button>
+						</li>
+						<li>
+						  <button class="shiny-blue"><h1>Book Three</h1><span class='i'>Coming soon</span></button>
+						</li>					
+					</ul>
+				</div>
 			</div>
 		</div>
+		<footer>
+			<div class='f f1'><p><a href="index.html">Home</a></p></div>
+			<div class='f'><p><a href="about.html">About</a></p></div>
+			<div class='f'><p><a href="contact.html">Contact</a></p></div>
+			<div class='f'>
+				<div id='social'>
+					<a href="https://twitter.com/edwingzmn" 
+					class="twitter-follow-button" data-show-count="false">Follow @edwingzmn</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];
+					if(!d.getElementById(id)){js=d.createElement(s);js.id=id;
+					js.src="//platform.twitter.com/widgets.js";
+					fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				</div>
+				<!--<p>&#169 Edwin Guzman</p>-->
+			</div>
+		</footer>
 	</body>
 </html>

@@ -79,6 +79,10 @@ table tbody tr {
 	background-color: #def3ca;
 }
 
+table tbody tr:hover {
+	cursor: pointer;
+}
+
 table tbody td {
 	padding: 10px;
 	text-align: center;
@@ -93,12 +97,3 @@ table tbody td {
 tbody tr.odd td {
 	background: #cacaf3;
 }
-
-/*
-#header_stay {  
-  padding:10px 20px; 
-  position:fixed; 
-  z-index:2000; 
-  width:100%;
-}
-*/

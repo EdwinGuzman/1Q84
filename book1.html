@@ -3,11 +3,13 @@
 	<head>
 	<meta charset="utf-8">
 	<meta name="1q84 songs" content="All the songs from 
-	Haruki Murakami's 1q84 novel">
+		Haruki Murakami's 1q84 novel">
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/table2.css" />
 	<link rel="stylesheet" href="css/tip-yellowsimple.css" />
 	<link rel="stylesheet" href="css/footer.css" />
+	<link rel="stylesheet" href="css/backtop.css" />
+	<link rel="stylesheet" href="css/video.css" />
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
 	</script>
 	<script type="text/javascript" src="js/script.js"></script>
@@ -21,19 +23,21 @@
 	<body>
 		<div id='wrap'>
 			<div id="header">
-				<span id="one">1</span><span id="q">Q</span><span id="eight">8</span><span id="four">4</span>
+				<a href="index.html">
+					<span id="one">1</span><span id="q">Q</span><span id="eight">8</span><span id="four">4</span>
+				</a>
 			</div>
 			<div id="main">
 				<div id="container">
 					<table id="first_table">
-					<caption>Songs listed in Murakami's 1Q84 novel</caption>
+					<caption>Songs listed in Haruki Murakami's 1Q84 novel</caption>
 						<thead id='header_stay'>
 							<tr>
-								<th id='ch'>Chapter</th>
-								<th id='title'>Title</th>
-								<th id='char'>Character</th>
-								<th id='song'>Song</th>
-								<th id='by'>By</th>
+								<th>Chapter</th>
+								<th>Title</th>
+								<th>Character</th>
+								<th>Song</th>
+								<th>By</th>
 								<th id='pgs' class="{sorter: false}">Pages</th>
 							</tr>
 						</thead>
@@ -42,9 +46,29 @@
 					</table>
 				</div>
 			</div>
+			<div id="back-top">
+				<a href="#top"><span></span>Back to top</a>
+			</div>		
+		</div>
+		<div id="video-container">
+			<h2><span id="song-title"></span> by <span id="artist"></span></h2>
+			<p id='close-vid'>CLOSE</p>
 		</div>
 		<footer>
-			<div id='footer_text'>&#169 Edwin Guzman</div>
+			<div class='f f1'><p><a href="index.html">Home</a></p></div>
+			<div class='f'><p><a href="about.html">About</a></p></div>
+			<div class='f'><p><a href="contact.html">Contact</a></p></div>
+			<div class='f'>
+				<div id='social'>
+					<a href="https://twitter.com/edwingzmn" 
+					class="twitter-follow-button" data-show-count="false">Follow @edwingzmn</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];
+					if(!d.getElementById(id)){js=d.createElement(s);js.id=id;
+					js.src="//platform.twitter.com/widgets.js";
+					fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				</div>
+				<!--<p>&#169 Edwin Guzman</p>-->
+			</div>
 		</footer>
 	</body>
 </html>

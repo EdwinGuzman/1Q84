@@ -2,6 +2,7 @@ var get_table = function() {
 	$.ajax({
 			type: "GET",
 			url: 'php/get_songs.php',
+			//data: 'book=' + book,
 			success: function(data) {
 				$('#main_table').append(data);
 				$('tbody tr').hover(
@@ -19,31 +20,80 @@ var get_table = function() {
 				});
 				$('#first_table').tablesorter();
 				$("table").stickyTableHeaders();
-			}
+				$('tr').each(function() {
+					$(this).click(function() {
+						var songname = $(this).attr('alt');
+						var byartist = $(this).attr('id');
+						
+						$('#song-title').text(songname);
+						$('#artist').text(byartist);
+						/*
+						if(songname.indexOf('N/A') != -1)
+							alert(byartist);
+						else
+							alert(songname + " " + byartist);
+						**********************
+						if($(this).next().hasClass('slideIt')) {
+							$(this).next().slideUp().removeClass('slideIt');
+						} else {
+							$('.under:visible').slideUp();
+							$(this).next().slideDown().addClass('slideIt');
+						}
+						*/
+						
+						//$('#video-container').fadeIn('slow');
+						
+					});
+				});
+				
+			} // END SUCCESS: function()
+			
 		});
 		
 };
 
 $(document).ready(
-	function() {		
+	function() {
+		//$('button').click(function() {
+		//	var book=$(this).attr('id');
 		get_table();
+		//});
 		
-		/*
-		$('#left-side-bar').click(
-			function() {
-				$('#main_table').empty();
-				get_table();
-			}
-		);
-		*/
-		//$('#first_table').jScroll();
-		/*
-		$(window).scroll(function() {
-			position = $(window).scrollTop();
-			if(position >= 170) alert('hi');
+				
+		$('#back-top').hide();
+		$(function() {
+			$(window).scroll(
+				function() {
+					if($(this).scrollTop() > 200 && $(this).width() >= 1320) {
+						$('#back-top').fadeIn();
+					} else {
+						$('#back-top').fadeOut();
+					}
+				}
+			);
+			
+			$('#back-top a').click(
+				function() {
+					$('body, html').animate({
+						scrollTop: 0 },
+						800);
+					return false;
+				}
+			);
 		});
-		*/
 		
-		//$('.header_stay').clone().prependTo('#container');
+		$(window).resize(function() {
+			if ($(window).width() <= 1320)
+				$('#back-top').fadeOut();
+			else {
+				if(!$('#back-top:visible'))
+					$('#back-top').fadeIn();
+			}
+		});
+		
+		$('#close-vid').click(function() {
+			$('#video-container').fadeOut();
+		});
+		
 	}  
 );

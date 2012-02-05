@@ -10,22 +10,47 @@ html, body {
 
 #main {
 	overflow: auto;
-	padding-bottom: 160px;/* must be the same as height of footer*/
+	padding-bottom: 110px;/* must be the same as height of footer*/
 }
 
 footer {
 	position: relative;
 	margin-left: auto;
-	margin-top: -150px; /*neg value of footer height*/
-	height: 150px;
+	margin-top: -100px; /*neg value of footer height*/
+	height: 100px;
 	clear: both;
 	background: black;
 	color: #fff;
 }
 
-#footer_text {
-	padding-left: 100px;
-	padding-top: 60px;
+footer a {
+	text-decoration: none;
+	color: #fff;
+}
+
+footer a:active {
+	text-decoration: none;
+}
+
+footer p {
+	margin: 30px auto 0 10px;
+}
+
+.f1 {
+	margin-left: 100px;	
+}
+
+.f {
+	float: left;
+	height: 80px;
+	width: 100px;
+}
+
+#social {
+	margin: 30px auto 0 10px;
+}
+#social p {
+	margin: 0 auto 0 10px;
 }
 
 /*opera fix*/
