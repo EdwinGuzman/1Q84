@@ -1,8 +1,19 @@
 <?php
 /*
+ADD MYSQL CREDENTIALS HERE:
 
+<<<<<<< HEAD
 ADD SQL CREDENTIALS HERE
 
+=======
+	$dbhost = '';
+	$dbuser = '';
+	$dbpwd = '';
+	
+	$conn = mysql_connect($dbhost, $dbuser, $dbpwd) or die ('Error');
+	
+	$dbname = '';
+>>>>>>> 168f2c7193145af602385b229cf9f69c27c18b16
 */
 
 	mysql_select_db($dbname) or die ('error');
