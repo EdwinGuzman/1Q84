@@ -31,52 +31,56 @@ table#first_table thead tr .headerSortDown {
 }
 
 table thead th {
+	font-size: 13pt;
 	padding: 15px;
 	color: #fff;
 	text-shadow: 1px 1px 1px #568F23;
-	border: 1px solid #9ed929;
-	background-color:#9d929;
+	border: 1px solid #5d89e8;/*9ed929*/
+	background-color:#5d89e8;
+	
 	background: -webkit-gradient(
 		linear, left bottom, left top,
-		color-stop(0.02, rgb(123, 192, 67)),
-		color-stop(0.51, rgb(139, 198, 66)),
-		color-stop(0.87, rgb(158, 217, 41))
+		/*color-stop(0.4, #A3BDF3), /*123, 192, 67*/
+		color-stop(0.30, #86A9F3), /*139, 198, 68*/
+		/*color-stop(0.97, #1E4597)  /*158, 217, 41*/
 		);
 	background: -moz-linear-gradient(
 		center bottom,
-		rgb(123, 192, 67) 2%,
-		rgb(139, 198, 66) 51%,
-		rgb(158, 217, 41) 87%,
-	);
+		/*#A3BDF3 4%,   /*colors similar to above */
+		#86A9F3 30%,
+		/*#1E4597 97%,*/
+	)
+	/*
 	-webkit-border-top-left-radius:5px;
 	-webkit-border-top-right-radius:5px;
 	-mox-border-radius: 5px 5px 0px 0px;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
+	*/
 }
 
 table thead tr {
-	background-color:#9d929;
+	background-color:#5d89e8;
 	background: -webkit-gradient(
 		linear, left bottom, left top,
-		color-stop(0.02, rgb(123, 192, 67)),
-		color-stop(0.51, rgb(139, 198, 66)),
-		color-stop(0.87, rgb(158, 217, 41))
+		/*color-stop(0.4, #A3BDF3), /*123, 192, 67*/
+		color-stop(0.30, #86A9F3), /*139, 198, 68*/
+		/*color-stop(0.97, #1E4597)  /*158, 217, 41*/
 		);
 	background: -moz-linear-gradient(
 		center bottom,
-		rgb(123, 192, 67) 2%,
-		rgb(139, 198, 66) 51%,
-		rgb(158, 217, 41) 87%,
+		/*#A3BDF3 4%,   /*colors similar to above */
+		#86A9F3 30%,
+		/*#1E4597 97%,*/
 	);
 }
 
 table tbody tr:nth-child(odd) {
-	background: #cadef3;
+	background: #86a9f3;/*#3156a4;/*#d5d5d5;/*#cadef3;*/
 }
 
 table tbody tr {
-	background-color: #def3ca;
+	background: #b6caf4;/*#a3bdf3;/*#819bd2;/*#b6caf4;/*#def3ca;*/
 }
 
 table tbody tr:hover {
@@ -86,14 +90,20 @@ table tbody tr:hover {
 table tbody td {
 	padding: 10px;
 	text-align: center;
-	border: 2px solid #e7efe0;
+	/*border: 1px solid #e7efe0;*/
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
 	border-radius:2px;
-	color: #666;
-	text-shadow: 1px 1px 1px #fff;
+	color: #444;
+	/*text-shadow: 1px 1px 1px #fff;*/
 }
 
 tbody tr.odd td {
-	background: #cacaf3;
+	background: #1e4597;/*#ffc555;/*#0f2b69;/*#cacaf3;*/ 
+	color: #fff;
 }
+/*color scheme 1:
+hover over: #0f2b69;
+background:#b6caf4;
+odd: #d5d5d5;
+*/

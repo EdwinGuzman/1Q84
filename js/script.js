@@ -45,7 +45,36 @@ var get_table = function() {
 						
 					});
 				});
-				
+				$('#first-color').click(function() {
+					
+					$('table tbody tr').css({
+						'background' : '#b6caf4'
+					});
+					$('table tbody tr:nth-child(odd)').css({
+						'background' : '#d5d5d5' });
+				});
+				$('#second-color').click(function() {
+					
+					$('table tbody tr').css({
+						'background' : '#6b8fd4',
+						'color': '#fff'
+					});
+					$('table tbody tr:nth-child(odd)').css({
+						'background' : '#14a',
+						'color': '#fff'
+					});
+				});
+				$('#third-color').click(function() {
+					
+					$('table tbody tr').css({
+						'background' : '#bacaea',
+						'color': '#fff'
+					});
+					$('table tbody tr:nth-child(odd)').css({
+						'background' : '#6b8fd4',
+						'color': '#fff'
+					});
+				});
 			} // END SUCCESS: function()
 			
 		});
@@ -64,7 +93,7 @@ $(document).ready(
 		$(function() {
 			$(window).scroll(
 				function() {
-					if($(this).scrollTop() > 200 && $(this).width() >= 1320) {
+					if($(this).scrollTop() > 200 && $(this).width() >= 1340) {
 						$('#back-top').fadeIn();
 					} else {
 						$('#back-top').fadeOut();
@@ -83,10 +112,11 @@ $(document).ready(
 		});
 		
 		$(window).resize(function() {
-			if ($(window).width() <= 1320)
+			//alert($(window).width());
+			if ($(window).width() <= 1340)
 				$('#back-top').fadeOut();
 			else {
-				if(!$('#back-top:visible'))
+				//if(!$('#back-top:visible'))
 					$('#back-top').fadeIn();
 			}
 		});

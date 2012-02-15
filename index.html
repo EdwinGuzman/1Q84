@@ -12,18 +12,33 @@
 	<link rel="stylesheet" href="css/video.css" />
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
 	</script>
-	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/script2.js"></script>
 	<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
 	<script type="text/javascript" src="js/jquery.stickytableheaders.js"></script>
 	<script type="text/javascript" src="js/jquery.metadata.js"></script>
 	<script type="text/javascript" src="js/jquery.poshytip.js"></script>
 	<script type="text/javascript" src="js/jquery.jscroll.js"></script>
-	<title>1q84</title>
+	<script type="text/javascript" src="js/jquery-ui-1.8.17.custom.min.js"></script>
+	<script type="text/javascript" src="video_app.js"></script>
+	<title>1Q84</title>
+		<!-- google analytics code: -->
+		<script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-29050071-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+		<!-- end GA -->
 	</head>
 	<body>
 		<div id='wrap'>
 			<div id="header">
-				<a href="index.html">
+				<a id='1q84' href="index.html">
 					<span id="one">1</span><span id="q">Q</span><span id="eight">8</span><span id="four">4</span>
 				</a>
 			</div>
@@ -31,7 +46,7 @@
 				<div id="btn-holder">
 					<ul>
 						<li>
-						  <a href="book1.html"><button class="shiny-blue"><h1>Book One</h1></button></a>
+						  <button id="bookone" class="shiny-blue"><h1>Book One</h1></button>
 						</li>
 						<li>
 						  <button class="shiny-blue"><h1>Book Two</h1><span class='i'>Coming soon</span></button>
@@ -42,11 +57,64 @@
 					</ul>
 				</div>
 			</div>
+			<div id="main">
+				<div id="container">
+					<table id="first_table">
+					<caption>Songs listed in Haruki Murakami's 1Q84 novel</caption>
+						<thead id='header_stay'>
+							<tr>
+								<th>Chapter</th>
+								<th>Title</th>
+								<th>Character</th>
+								<th>Song</th>
+								<th>By</th>
+								<th id='pgs' class="{sorter: false}">Pages</th>
+							</tr>
+						</thead>
+						<tbody id='main_table'>	
+						</tbody>
+					</table>
+				</div>
+				<div id="back-top">
+					<a href="#top"><span></span>Back to top</a>
+				</div>	
+				<div id="video-container" class="ui-widget-content">
+					
+					<div id='top-vid-header'>
+						<h2><span id="song-title"></span> by <span id="artist"></span></h2>
+						<p id="drag">Drag me!</p>
+						<p id='close-vid'>CLOSE</p>
+					</div>
+					<div id='results-from-vid'>
+						
+						<div id='left-vid'>
+							<form id="searchForm" onsubmit="ytVideoApp.listVideos('search_all', this.searchTerm.value, 1); return false;" action="javascript:void();" >
+								<div>
+									<input class='hide-me' id='input' name="searchTerm" type="text" value="YouTube Data API" />
+									<input type="submit" id='formbutton' value="Search" />
+									<!-- added this: id='formbutton' -->
+								</div>
+							</form>
+							<div id="videos_here"></div>
+							<div id="searchResultsNavigation">
+								<form id="navigationForm" action="javascript:void();">
+									<input type="button" id="previousPageButton" onclick="ytVideoApp.listVideos(ytVideoApp.previousQueryType, ytVideoApp.previousSearchTerm, ytVideoApp.previousPage);" value="Back" style="display: none;" />
+									<input type="button" id="nextPageButton" onclick="ytVideoApp.listVideos(ytVideoApp.previousQueryType, ytVideoApp.previousSearchTerm, ytVideoApp.nextPage);" value="Next" style="display: none;" />
+								</form>
+							</div>
+						</div>
+						<div id="clicked_video">
+							<div id="videoPlayer"></div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
+		
 		<footer>
 			<div class='f f1'><p><a href="index.html">Home</a></p></div>
 			<div class='f'><p><a href="about.html">About</a></p></div>
-			<div class='f'><p><a href="contact.html">Contact</a></p></div>
+			<!--<div class='f'><p><a href="contact.html">Contact</a></p></div>-->
 			<div class='f'>
 				<div id='social'>
 					<a href="https://twitter.com/edwingzmn" 

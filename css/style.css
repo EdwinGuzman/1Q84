@@ -5,10 +5,8 @@ body {
 	font-style: italic;
 }
 #header {
-	height: 50px;
-	padding-top: 15px;
-	margin-left: 30px;
 	font-size: 60pt;
+	padding-left: 25px;
 }
 
 #header a {
@@ -18,6 +16,7 @@ body {
 #header a:hover {
 	text-decoration:none;
 }
+
 #one {
 	color: blue;
 }
@@ -34,7 +33,17 @@ body {
 }
 
 #main-home {
-	margin-top: 70px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	height: 100px;
+	display: block;
+	text-align: center;
+	color: #fff;
+}
+#main {
+	margin-top: 40px;
 	margin-right: auto;
 	margin-left: auto;
 	width: 100%;
@@ -42,14 +51,26 @@ body {
 	display: block;
 	text-align: center;
 }
-#main {
-	margin-top: 70px;
-	margin-right: auto;
-	margin-left: auto;
-	width: 100%;
-	height: auto;
-	display: block;
-	text-align: center;
+#about {
+	margin:5px 40px 0 100px;
+	font-size: 14pt;
+	width: 800px;
+	color: #fff;
+	float:left;
+}
+
+#about a {
+	color: #fff;
+}
+#about a:hover {
+	color: #000;
+}
+
+#about-right {
+	display: none;
+	float: left;
+	margin: 70px 0 0 90px;
+	color: #fff;
 }
 
 #container {
@@ -68,6 +89,7 @@ li {
 	width: 600px;
 	margin-right:auto; 
 	margin-left: auto;
+	color: #fff;
 }
 
 button::-moz-focus-inner {
@@ -121,11 +143,11 @@ button.shiny-blue {
   button.shiny-blue:active {
     border-top: 1px solid #1b4db3;
     border-right: 1px solid #174299;
-    border-bottom: 1px solid #133780;
+    border-bottom: 1px solid #1b4db3;/*#133780;*/
     border-left: 1px solid #174299;
-    -webkit-box-shadow: inset 0 0 5px 2px #1a47a0, 0 1px 0 #eeeeee;
-    -moz-box-shadow: inset 0 0 5px 2px #1a47a0, 0 1px 0 #eeeeee;
-    -ms-box-shadow: inset 0 0 5px 2px #1a47a0, 0 1px 0 #eeeeee;
-    -o-box-shadow: inset 0 0 5px 2px #1a47a0, 0 1px 0 #eeeeee;
-    box-shadow: inset 0 0 5px 2px #1a47a0, 0 1px 0 #eeeeee; 
+    -webkit-box-shadow: inset 0 0 5px 2px #1a47a0, 0 0px 0 #eeeeee;
+    -moz-box-shadow: inset 0 0 5px 2px #1a47a0, 0 0px 0 #eeeeee;
+    -ms-box-shadow: inset 0 0 5px 2px #1a47a0, 0 0px 0 #eeeeee;
+    -o-box-shadow: inset 0 0 5px 2px #1a47a0, 0 px 0 #eeeeee;
+    box-shadow: inset 0 0 5px 2px #1a47a0, 0 0px 0 #eeeeee; 
 }
