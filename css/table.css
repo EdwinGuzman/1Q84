@@ -1,39 +1,115 @@
-tbody tr:nth-of-type(odd) {
-	background:rgba(255,255,136,0.5);
-}
-/* use td for columns (and th too to include headings)
-use all for overlaps */
-table, caption, td, tr, th {
-	margin: 0;
-	padding: 0;
-	font-weight: normal;
-	font-family:  "Trebuchet MS", sans-serif;
-}
-
 table {
-	border-collapse: collapse;
-	margin-bottom:15px;
-	width: 90%;
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1.4em;
+	font-style: normal;
+	border-collapse: separate;
+	margin-right: auto;
+	margin-left: auto;
 }
 
-caption {
+table caption {
 	font-weight: bold;
 	text-align:left;
 	font-size:15px;
 	padding-bottom: 10px;
+	color: #fff;
 }
 
-table td, table th {
-	padding: 5px;
-	border: 1px solid #fff;
-	border-width: 0 1px 1px 0;
+caption span#book_table {
+	font-size: 16pt;
+	font-weight: bold;
+	color: #5D89E8;
 }
 
-tbody td {
+table#first_table thead tr .header {
+	background-image: url('../blue/bg.gif');
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table#first_table thead tr .headerSortUp {
+	background-image: url('../blue/asc.gif');
+}
+table#first_table thead tr .headerSortDown {
+	background-image: url('../blue/desc.gif');
+}
+
+table thead th {
+	font-size: 13pt;
+	padding: 15px;
+	color: #fff;
+	text-shadow: 1px 1px 1px #568F23;
+	border: 1px solid #5d89e8;/*9ed929*/
+	background-color:#5d89e8;
+	
+	background: -webkit-gradient(
+		linear, left bottom, left top,
+		/*color-stop(0.4, #A3BDF3), /*123, 192, 67*/
+		color-stop(0.30, #86A9F3), /*139, 198, 68*/
+		/*color-stop(0.97, #1E4597)  /*158, 217, 41*/
+		);
+	background: -moz-linear-gradient(
+		center bottom,
+		/*#A3BDF3 4%,   /*colors similar to above */
+		#86A9F3 30%,
+		/*#1E4597 97%,*/
+	)
+	/*
+	-webkit-border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-mox-border-radius: 5px 5px 0px 0px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	*/
+}
+
+table thead tr {
+	background-color:#5d89e8;
+	background: -webkit-gradient(
+		linear, left bottom, left top,
+		/*color-stop(0.4, #A3BDF3), /*123, 192, 67*/
+		color-stop(0.30, #86A9F3), /*139, 198, 68*/
+		/*color-stop(0.97, #1E4597)  /*158, 217, 41*/
+		);
+	background: -moz-linear-gradient(
+		center bottom,
+		/*#A3BDF3 4%,   /*colors similar to above */
+		#86A9F3 30%,
+		/*#1E4597 97%,*/
+	);
+}
+
+table tbody tr:nth-child(odd) {
+	background: #86a9f3;/*#3156a4;/*#d5d5d5;/*#cadef3;*/
+}
+
+table tbody tr {
+	background: #b6caf4;/*#a3bdf3;/*#819bd2;/*#b6caf4;/*#def3ca;*/
+}
+
+table tbody tr:hover {
+	cursor: pointer;
+}
+
+table tbody td {
+	padding: 10px;
 	text-align: center;
-	background: #d5eaf0;
+	/*border: 1px solid #e7efe0;*/
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius:2px;
+	color: #444;
+	/*text-shadow: 1px 1px 1px #fff;*/
 }
 
 tbody tr.odd td {
-	background: #bcd9e1;
+	background: #1e4597;/*#ffc555;/*#0f2b69;/*#cacaf3;*/ 
+	color: #fff;
 }
+/*color scheme 1:
+hover over: #0f2b69;
+background:#b6caf4;
+odd: #d5d5d5;
+*/

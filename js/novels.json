@@ -1,0 +1,596 @@
+{
+	"book1" : 	[{
+					"Chapter" 	: 	1,
+					"Title" 	:	"Don't let appearances fool you",
+					"Character" :	"Aomame",
+					"Song"		: 	"Sinfonietta",
+					"By"		:	"Leoš Janáček",
+					"Pages"		:	[3,5,6,7,9,10],
+					"Quote"		:	["The taxi's radio was tuned to a classical FM broadcast.  Janáček's Sinfonietta -- probably not the ideal music to hear in a taxi caught in traffic.  The middle-aged dirver didn't seemto be listening very closely, either.",
+									"...How many people could recognize Janáček's Sinfonietta after hearing justthe first few bars?  Probably somewhere between 'very few' and 'almost none'.But for some reason, Aomame was one of the few who could.", 
+									"She closed her eyes again and concentrated on the music.  She knew mothing about Janáček as a person,but she wasquite sure that he never imagined that in 1984 someone would be listening to his composition in a hushed Toyota Corwn Royal Salloon on the gridlocked elevated Metropolitan Expressway in Tokyo."]
+				},
+				{
+					"Chapter"	:	1,
+					"Title"		:	"Don't let appearances fool you",
+					"Character"	:	"Aomame",
+					"Song"		:	"Billy Jean",
+					"By"		:	"Michael Jackson",
+					"Pages"		:	[11,12],
+					"Quote"		:	["People stared at her in silence as she removed her shoes and coat.  From the open window of the black Toyota Celica parked next to the turnout, Michael Jackson's high-pitched voice provided her with background music.  'Billie Jean' was playing.  She felt as if she were performing a striptease.  So what?  Let them look all they want.  They must be bored waiting for the traffic jam to end. Sorry, though, folks, this is all I'll be taking off today."]
+				},
+				{
+					"Chapter"	:	3,
+					"Title"		:	"Some changed facts",
+					"Character"	:	"Aomame",
+					"Song"		:	"Sinfonietta",
+					"By"		:	"Leoš Janáček",
+					"Pages"		:	[29,38],
+					"Quote"		:	["As her mind traced these graphic memories, the brass unison of Janáček Sinfonietta rang like festive background music."]
+				},
+				{
+					"Chapter"	:	4,
+					"Title"		:	"If that is what you want to do",
+					"Character"	:	"Tengo",
+					"Song"		:	"Well-Tempered Clavier",
+					"By"		:	"J.S. Bach",
+					"Pages"		:	[45],
+					"Quote"	    :	["'You like sequences',Fuka-Eri asked , without a question mark. 'To me, they're like Bach's Well-Tempered Clavier.I never get tired of them.  There's always something new to discover."]
+				},
+				{
+					"Chapter"	:	5,
+					"Title"		:	"A profession requiring specialized techniques and training",
+					"Character"	:	"Aomame",
+					"Song"		:	"Sweet Lorraine",
+					"By"		:	"Nat King Cole",
+					"Pages"		:	[53],
+					"Quote"		:	["She entered the bar a little after seven.  A young piano and guitar duo were playing 'Sweet Lorraine'. Their version was a copy of an old Nat King Cole record, but they weren't bad."]
+				},
+				{
+					"Chapter"	:	5,
+					"Title"		:	"A profession requiring specialized techniques and training",
+					"Character"	:	"Aomame",
+					"Song"		:	"Paper Moon",
+					"By"		:	"Nat King Cole",
+					"Pages"		:	[55],
+					"Quote"		:	["The jazz duo played 'It's Only a Paper Moon'. The pianist sang a single chorus."]
+				},
+				{
+					"Chapter"	:	9,
+					"Title"		:	"New scenery, new rules",
+					"Character"	:	"Aomame",
+					"Song"		:	"Sinfonietta",
+					"By"		:	"Leoš Janáček",
+					"Pages"		:	[108,109,110,111],
+					"Quote"		:	["Aomame recalled the odd sensation she had felt when she heard the opening of Janáček's Sinfonietta in the taxi caught in traffic."]
+				},
+				{
+					"Chapter"	:	9,
+					"Title"		:	"New scenery, new rules",
+					"Character"	:	"Aomame",
+					"Song"		:	"Concerto for Orchestra",
+					"By"		:	"Bela Bartok",
+					"Pages"		:	[111],
+					"Quote"		:	["The A side was Bartok's concerto for orchestra."]
+				},
+				{
+					"Chapter"	:	11,
+					"Title"		:	"The human body is a temple",
+					"Character"	:	"Aomame",
+					"Song"		:	"N/A",
+					"By"		:	"Queen",
+					"Pages"		:	[131,141],
+					"Quote"		:	["On the bar's big wall television, Queen was performing...after the Queen video ended, ABBA came on..."]
+				},
+				{
+					"Chapter"	:	11,
+					"Title"		:	"The human body is a temple",
+					"Character"	:	"Aomame",
+					"Song"		:	"N/A",
+					"By"		:	"ABBA",
+					"Pages"		:	[131,141],
+					"Quote"		:	["She couldn't ask too much on a night like this, with nothing but Queen and ABBA to listen to all evening."]
+				},
+				{
+					"Chapter"	:	14,
+					"Title"		:	"things that most readers have never seen before",
+					"Character"	:	"Tengo",
+					"Song"		:	"Sinfonietta",
+					"By"		:	"Leoš Janáček",
+					"Pages"		:	[180],
+					"Quote"		:	["The timpani was a difficult instrument,but it was deep and compelling in its own special way, its combination of sounds hinting at infinite possibilities.  Tengo and his classmates were rehearsing several passages excerpted from Janáček's Sinfonietta, as arranged for wind instruments."]
+				},
+				{
+					"Chapter"	:	16,
+					"Title"		:	"I'm glad you liked it",
+					"Character"	:	"Tengo",
+					"Song"		:	"Well-Tempered Clavier",
+					"By"		:	"J.S. Bach",
+					"Pages"		:	[205,206],
+					"Quote"		:	["'What kind of music?' 'I like Bach.' 'Anything in particular?' 'BWV 846 to 893.' Tengo mulled that over. 'The Well-Tempered Clavier, Books I and II.' 'Yes.'"]
+				},
+				{
+					"Chapter"	:	16,
+					"Title"		:	"I'm glad you liked it",
+					"Character"	:	"Tengo",
+					"Song"		:	"BWV 244, St. Matthew Passion",
+					"By"		:	"J.S. Bach",
+					"Pages"		:	[206],
+					"Quote"		:	["'How about other works?' tengo asked.  'BWV 244'  tengo could not immediately recall which work of Bach's had a BWV number of 244.  Fuka-eri began to sing."]
+				},
+				{
+					"Chapter"	:	17,
+					"Title"		:	"whether we are happy or unhappy",
+					"Character"	:	"Aomame",
+					"Song"		:	"Lachrimae",
+					"By"		:	"John Dowland",
+					"Pages"		:	[213],
+					"Quote"		:	["The dowager was there, dressed in a jersey top and bottom for exercise, seated in her reading chair and listening to John Dowland's instrumental piece 'Lachrimae' while reading a book.  This was one of her favorite pieces of music.  Aomame had heard it many times and knew the melody."]
+				},
+				{
+					"Chapter"	:	17,
+					"Title"		:	"whether we are happy or unhappy",
+					"Character"	:	"Aomame",
+					"Song"		:	"Cello Concerto",
+					"By"		:	"Joseph Haydn",
+					"Pages"		:	[215],
+					"Quote"		:	["Music played at low volume - a Haydn cello concerto.  This was another of the dowager's favorites."]
+				}
+				],
+	"book2" : 	[{
+					"Chapter" 	: 	2,
+					"Title" 	:	"I don't have a thing except my soul",
+					"Character" :	"Tengo",
+					"Song"		: 	"Sinfonietta",
+					"By"		:	"Leoš Janáček",
+					"Pages"		:	[327],
+					"Quote"		:	["He set his recording of Janáček's Sinfonietta on the turntable and pressed the 'auto-play' button.  Seiji Ozawa conducting the Chicago Symphony.  The turntable started to spin at 33 1/3 RPM, the tonearm moved over the edge of the record, and the needle traced the groove.  Following the brass introduction, the ornate timpani resounded from the speakers.  It was the section that Tengo liked best."]
+				},
+				{
+					"Chapter"	:	2,
+					"Title"		:	"I don't have a thing except my soul",
+					"Character"	:	"Tengo",
+					"Song"		:	"N/A",
+					"By"		:	"W.C. Handy",
+					"Pages"		:	[328],
+					"Quote"		:  	["He sometimes listened to Janáček's Sinfonietta with his older girlfriend.  'Not bad,' she would say, but she liked old jazz records more than classical - the older the better.  It was an odd taste for a woman her age.  Her favorite record was a collection of W. C. Handy blue songs, performed by the young Louis Armstrong, with Barney Bigard onclarinet and Trummy Young on trombone.  She gave Tengo a copy, though less fo rhim than for herself to listen to."]
+				},
+				{
+					"Chapter" 	: 	2,
+					"Title" 	:	"I don't have a thing except my soul",
+					"Character" :	"Tengo",
+					"Song"		: 	"Atlanta Blues",
+					"By"		:	"W.C. Handy",
+					"Pages"		:	[328],
+					"Quote"		:	["Whenever the sixth tune on the flip side of the LP, 'Atlanta Blues,' began, she would grab one of Tengo's body part and praise Bigard's concise, exquisite solo, which was sandwiched between Armstrong's song and his trumpet solo. 'Listen to that!  Amazing - the first, long wail like a little child's cry!  What is it - surprise?  Overflowing joy? An appeal for happiness?  It turns into a joyful sigh and weaves its way through a beautiful river of sound until it's smoothly absorbed into some perfect, unknowable place.  There! Listen! Nobody else can play such thrilling solos.  Jimmy Noone, Sidney Bechet, Pee Wee Russell, Benny Goodman: they're all great clarinetists, but none of them can create such perfeectly sculptured works of art.'"]
+				},
+				{
+					"Chapter" 	: 	3,
+					"Title" 	:	"You can't choose how you're born, but you can choose how you die",
+					"Character" :	"Aomame",
+					"Song"		: 	"Sinfonietta",
+					"By"		:	"Leoš Janáček",
+					"Pages"		:	[343],
+					"Quote"		:	["By now, Aomame had memorized every note of Sinfonietta.  Listening to the music while stretching her body close to her limit, she was able to attain a mysterious calm.  She was simultaneously the torturer and the tortured, the forcer and the forced.  This sense of inner-directed self-sufficiency was what she wanted most of all.  It gave her deep solace. Janáček Sinfonietta was effective background music for that purpose."]
+				},
+				{
+					"Chapter" 	: 	4,
+					"Title" 	:	"It Might Be Better Not to Wish for Such a Thing",
+					"Character" :	"Tengo",
+					"Song"		: 	"BWV 244, St. Matthew Passion",
+					"By"		:	"J.S. Bach",
+					"Pages"		:	[364],
+					"Quote"		:	["This was the meaning of the aria from the St. Matthew Passion that Fuka-Eri had sung the other day."]
+				},
+				{
+					"Chapter" 	: 	4,
+					"Title" 	:	"It Might Be Better Not to Wish for Such a Thing",
+					"Character" :	"Tengo",
+					"Song"		: 	"N/A",
+					"By"		:	"Vladimir Horowitz",
+					"Pages"		:	[365],
+					"Quote"		:	["Like Vladimir Horowitz seated before eighty-eight brand-new keys, Tengo curved his ten fingers suspended in  space.  Then, when he was ready, he began typing characters to fill the word processor's screen."]
+				},
+				{
+					"Chapter" 	: 	5,
+					"Title" 	:	"The Vegetarian Cat Meets Up With The Rat",
+					"Character" :	"Aomame",
+					"Song"		: 	"Sinfonietta",
+					"By"		:	"Leoš Janáček",
+					"Pages"		:	[374],
+					"Quote"		:	["Aomame gave her rubber plant its last watering, and then she put Janáček's Sinfonietta on the record player.  It was the only record she had kept after getting rid of all the others.  She  closed her eyes and listened to the music, imagining the windswept fields of Bohemia.  How  wonderful it would be to walk with Tengo in such a place!  They would be holding hands, of course."]
+				},
+				{
+					"Chapter" 	: 	5,
+					"Title" 	:	"The Vegetarian Cat Meets Up With The Rat",
+					"Character" :	"Aomame",
+					"Song"		: 	"Concerto for Woodwinds",
+					"By"		:	"Antonio Vivaldi",
+					"Pages"		:	[375],
+					"Quote"		:	["She turned on the FM radio to find Vivaldi's Concerto for Woodwinds playing.  The piccolo was trilling away like the chirping of a little bird.  To Aomame, this sounded like music intended to emphasize the unreality of her present reality."]
+				},
+				{
+					"Chapter" 	: 	6,
+					"Title" 	:	"We Have Very Long Arms",
+					"Character" :	"Tengo",
+					"Song"		: 	"N/A",
+					"By"		:	"Louis Armstrong",
+					"Pages"		:	[384],
+					"Quote"		:	["On his shelf remained several LP records that she had brought from home to listen to in bed with him, all jazz records from long, long ago - Louis Armstrong, Billie Holliday (this one, too, had Barney Bigard as a sideman), some 1940s Duke Ellington. She had listened to them - and handled them - with great care.  The jackets had faded somewhat with years, but the records themselves  looked brand-new.  Tengo picked up one jacket after another.  Gazing at them, he felt with growing certainty that he might never see her again."]
+				},
+				{
+					"Chapter" 	: 	6,
+					"Title" 	:	"We Have Very Long Arms",
+					"Character" :	"Tengo",
+					"Song"		: 	"N/A",
+					"By"		:	"Billie Holiday",
+					"Pages"		:	[384],
+					"Quote"		:	["On his shelf remained several LP records that she had brought from home to listen to in bed with him, all jazz records from long, long ago - Louis Armstrong, Billie Holliday (this one, too, had Barney Bigard as a sideman), some 1940s Duke Ellington. She had listened to them - and handled them - with great care.  The jackets had faded somewhat with years, but the records themselves  looked brand-new.  Tengo picked up one jacket after another.  Gazing at them, he felt with growing certainty that he might never see her again."]
+				},
+				{
+					"Chapter" 	: 	6,
+					"Title" 	:	"We Have Very Long Arms",
+					"Character" :	"Tengo",
+					"Song"		: 	"N/A",
+					"By"		:	"Duke Ellington",
+					"Pages"		:	[384, 385],
+					"Quote"		:	["Still unable to sleep, Tengo was sitting on the floor, listening to the Duke Ellington record at low volume, when the phone rang again.  The hands of the wall clock were pointing to 10:12."]
+				},
+				{
+					"Chapter" 	: 	8,
+					"Title" 	:	"Time For the Cats to Come",
+					"Character" :	"Tengo",
+					"Song"		: 	"The Beat Goes On",
+					"By"		:	"Sonny and Cher",
+					"Pages"		:	[400],
+					"Quote"		:	["Fuka-Eri and Tengo were a powerful team.  That's all they needed to say.  Tengo and Fuka-Eri.  Like Sonny and Cher.  The Beat Goes On."]
+				},
+				{
+					"Chapter" 	: 	10,
+					"Title" 	:	"You Have Declined Our Offer",
+					"Character" :	"Tengo",
+					"Song"		: 	"N/A",
+					"By"		:	"Sonny and Cher",
+					"Pages"		:	[428],
+					"Quote"		:	["'We should be together,' Fuka-Eri said.  'Join forces.' 'Sonny and Cher,' Tengo said. 'The  strongest male/female duo.' 'The strongest what?' 'Never mind.  My own little joke.'"]
+				},
+				{
+					"Chapter" 	: 	13,
+					"Title" 	:	"Without Your Love",
+					"Character" :	"Aomame",
+					"Song"		: 	"It's Only a Paper Moon",
+					"By"		:	"Nat King Cole",
+					"Pages"		:	[463, 472],
+					"Quote"		:	["'Remember how the old song goes, 'Without your love, it's a honky-tonk parade'?'  He hummed the melody.  'Do you know it?' ''It's Only a Paper Moon'.' 'That's it.  1984 and 1Q84 are fundamentally the same in terms of how they work.  If you don't believe in the world, and if there is no love in it, then everything is phony.'"]
+				},
+				{
+					"Chapter" 	: 	14,
+					"Title" 	:	"A Package in his Hands",
+					"Character" :	"Tengo",
+					"Song"		: 	"N/A",
+					"By"		:	"Sonny and Cher",
+					"Pages"		:	[474, 475, 478],
+					"Quote"		:	["The word 'pair' made Tengo think of Sonny and Cher, but Sonny and Cher might not be the most appropriate pair to put aboard Noah's ark to represent humanity.  Though they might not be entirely inappropriate, either.  There must be some other couple who would be a more appropriate human  sample."]
+				},
+				{
+					"Chapter" 	: 	14,
+					"Title" 	:	"A Package in his Hands",
+					"Character" :	"Tengo",
+					"Song"		: 	"The Last Rose of Summer",
+					"By"		:	"N/A",
+					"Pages"		:	[480],
+					"Quote"		:	["At the same time actual sounds reached his ears - the shouts of children resounding through the open window, a soccer ball being kicked, a bat connecting with a softball, the high-pithced complaints of a girl in one of the younger classes, the uncertain notes of a recorder ensemble practicing 'The Last Rose of Summer.'  After-school activities."]
+				},
+				{
+					"Chapter" 	: 	15,
+					"Title" 	:	"Time Now for Ghosts",
+					"Character" :	"Aomame",
+					"Song"		: 	"Folk songs",
+					"By"		:	"60's Japanese singers",
+					"Pages"		:	[491],
+					"Quote"		:	["The driver tuned to NHK.  They were broadcasting a music program - folk songs sung by Japanese singers popular in the late sixties.  Having listened to such music on the radio as a girl,  Aomame remembered it vaguely, but in no way fondly."]
+				},
+				{
+					"Chapter" 	: 	16,
+					"Title" 	:	"Like a Ghost Ship",
+					"Character" :	"Tengo",
+					"Song"		: 	"Partitas",
+					"By"		:	"George Philipp Telemann",
+					"Pages"		:	[500],
+					"Quote"		:	["After drinking a fresh cup of coffee, he went to the bathroom and shaved while listening to  a baroque music program on the FM radio: Telemann's partitas for various solo instruments."]
+				},
+				{
+					"Chapter" 	: 	16,
+					"Title" 	:	"Like a Ghost Ship",
+					"Character" :	"Tengo",
+					"Song"		: 	"N/A",
+					"By"		:	"Jean-Philippe Rameau",
+					"Pages"		:	[500],
+					"Quote"		:	["This was his normal routine: make coffee in the kitchen, drink it, and shave while listening to Baroque Music for You on the radio.  Only the musical selections changed each day.  Yesterday it had almost certainly been Rameau's keyboard music."]
+				},
+				{
+					"Chapter" 	: 	16,
+					"Title" 	:	"Like a Ghost Ship",
+					"Character" :	"Tengo",
+					"Song"		: 	"N/A",
+					"By"		:	"Marcel Dupré",
+					"Pages"		:	[501],
+					"Quote"		:	["The FM radio was playing a Marcel Dupré organ piece."]
+				},
+				{
+					"Chapter" 	: 	16,
+					"Title" 	:	"Like a Ghost Ship",
+					"Character" :	"Tengo",
+					"Song"		: 	"N/A",
+					"By"		:	"Duke Ellington",
+					"Pages"		:	[507],
+					"Quote"		:	["When the daylight began to fade, he went home to find Fuka-Eri sitting on the floor, listening to records - old jazz records left by his girlfriend.  Record jackets were spread on the floor - Duke Ellington, Benny Goodman, Billie Holiday."]
+				},
+				{
+					"Chapter" 	: 	16,
+					"Title" 	:	"Like a Ghost Ship",
+					"Character" :	"Tengo",
+					"Song"		: 	"N/A",
+					"By"		:	"Benny Goodman",
+					"Pages"		:	[507],
+					"Quote"		:	["When the daylight began to fade, he went home to find Fuka-Eri sitting on the floor, listening to records - old jazz records left by his girlfriend.  Record jackets were spread on the floor - Duke Ellington, Benny Goodman, Billie Holiday."]
+				},
+				{
+					"Chapter" 	: 	16,
+					"Title" 	:	"Like a Ghost Ship",
+					"Character" :	"Tengo",
+					"Song"		: 	"N/A",
+					"By"		:	"Billie Holliday",
+					"Pages"		:	[507],
+					"Quote"		:	["When the daylight began to fade, he went home to find Fuka-Eri sitting on the floor, listening to records - old jazz records left by his girlfriend.  Record jackets were spread on the floor - Duke Ellington, Benny Goodman, Billie Holiday."]
+				},
+				{
+					"Chapter" 	: 	16,
+					"Title" 	:	"Like a Ghost Ship",
+					"Character" :	"Tengo",
+					"Song"		: 	"Chantez les Bas",
+					"By"		:	"Louis Armstrong",
+					"Pages"		:	[507],
+					"Quote"		:	["Spinning on the turntable just then was Louis Armstrong singing 'Chantez les bas', a memorable song.  It reminded him of his girlfriend."]
+				},
+				{
+					"Chapter" 	: 	18,
+					"Title" 	:	"That Lonely, Taciturn Satellite",
+					"Character" :	"Tengo",
+					"Song"		: 	"Mother's Little Helper",
+					"By"		:	"The Rolling Stones",
+					"Pages"		:	[522],
+					"Quote"		:	["At the end of her deliberations, she took out an old Rolling Stones album, put it on the  turntable, and lowered the tonearm.  It was a record that he had borrowed from somebody in high school and, for some reason, never given back.  He hadn't heard it in years."]
+				},
+				{
+					"Chapter" 	: 	18,
+					"Title" 	:	"That Lonely, Taciturn Satellite",
+					"Character" :	"Tengo",
+					"Song"		: 	"Lady Jane",
+					"By"		:	"The Rolling Stones",
+					"Pages"		:	[522],
+					"Quote"		:	["Listening to tracks like 'Mother's Little Helper' and 'Lady Jane', he made rice pilaf using ham and brown rice, and miso soup with tofu and wakame."]
+				},
+				{
+					"Chapter" 	: 	18,
+					"Title" 	:	"That Lonely, Taciturn Satellite",
+					"Character" :	"Tengo",
+					"Song"		: 	"Little Red Rooster",
+					"By"		:	"The Rolling Stones",
+					"Pages"		:	[523],
+					"Quote"		:	["But Tengo could not concentrate.  Another Rolling Stones record was playing.  \"Little Red Rooster\" - a performance from the time Mick Jagger was crazy about Chicago blues."]
+				},
+				{
+					"Chapter" 	: 	19,
+					"Title" 	:	"When the Dohta Wakes Up",
+					"Character" :	"Aomame",
+					"Song"		: 	"N/A",
+					"By"		:	"Johannes Brahms",
+					"Pages"		:	[534],
+					"Quote"		:	["During free moments, it is possible to listen to a Brahms symphony or a Schumann piano piece or Bach keyboard music or religious music.  These are precious times for the girl and virtually her only entertainment."]
+				},
+				{
+					"Chapter" 	: 	19,
+					"Title" 	:	"When the Dohta Wakes Up",
+					"Character" :	"Aomame",
+					"Song"		: 	"N/A",
+					"By"		:	"Robert Schumann",
+					"Pages"		:	[534],
+					"Quote"		:	["During free moments, it is possible to listen to a Brahms symphony or a Schumann piano piece or Bach keyboard music or religious music.  These are precious times for the girl and virtually her only entertainment."]
+				},
+				{
+					"Chapter" 	: 	19,
+					"Title" 	:	"When the Dohta Wakes Up",
+					"Character" :	"Aomame",
+					"Song"		: 	"N/A",
+					"By"		:	"J.S. Bach",
+					"Pages"		:	[534],
+					"Quote"		:	["During free moments, it is possible to listen to a Brahms symphony or a Schumann piano piece or Bach keyboard music or religious music.  These are precious times for the girl and virtually her only entertainment."]
+				},
+				{
+					"Chapter" 	: 	19,
+					"Title" 	:	"When the Dohta Wakes Up",
+					"Character" :	"Aomame",
+					"Song"		: 	"Sinfonietta",
+					"By"		:	"Leoš Janáček",
+					"Pages"		:	[545],
+					"Quote"		:	["From the moment I heard Janacek's Sinfonietta and climbed down the escape stairs from the traffic jam on the Metropolitan Expressway, I was drawn into this world with two moons in the sky, into this enigma-filled world of 1Q84.  What could it mean?"]
+				},
+				{
+					"Chapter" 	: 	22,
+					"Title" 	:	"As Long as There Are Two Moons in the Sky",
+					"Character" :	"Tengo",
+					"Song"		: 	"Home on the Range",
+					"By"		:	"N/A",
+					"Pages"		:	[560],
+					"Quote"		:	["With the receiver pressed against his ear, Tengo waited - and waited - for the doctor to pick up. 'Home on the Range' seemed as if it would go on playing forever."]
+				},
+				{
+					"Chapter" 	: 	23,
+					"Title" 	:	"Put a Tiger in Your Tank",
+					"Character" :	"Aomame",
+					"Song"		: 	"Thomas Crown Affair theme song",
+					"By"		:	"Michel Legrand",
+					"Pages"		:	[570],
+					"Quote"		:	["The driver hummed the first few bars of the theme song.  Then he looked in the mirror for another close look at Aomame. 'Come to think of it, miss, something about you reminds me of Faye Dunaway.' 'Thank you,' Aomame said, struggling somewhat to hide the smile that formed around her lips."]
+				},
+				{
+					"Chapter" 	: 	23,
+					"Title" 	:	"Put a Tiger in Your Tank",
+					"Character" :	"Aomame",
+					"Song"		: 	"Sinfonietta",
+					"By"		:	"Leoš Janáček",
+					"Pages"		:	[570],
+					"Quote"		:	["Unfortunately, Janacek's Sinfonietta was not playing on the car radio, and the sound quality didn't measure up to that of the stereo in the Toyota Crown Royal Saloon, but that would have been asking for too much."]
+				}
+				],
+	"book3"	:	[{
+					"Chapter" 	: 	2,
+					"Title" 	:	"Alone but not lonely",
+					"Character" :	"Aomame",
+					"Song"		: 	"Sinfonietta",
+					"By"		:	"Leoš Janáček",
+					"Pages"		:	[617],
+					"Quote"		:	["I have to get ahold of a recording of Janáček Sinfonietta.  I need it when I'm working out.  It makes me feel connected.  It's as if that music is leading me to something.  To what, though, I can't say.  She made a mental note to add that to the next list of supplies."]
+				},
+				{
+					"Chapter" 	: 	5,
+					"Title" 	:	"No matter how long you keep quiet",
+					"Character" :	"Aomame",
+					"Song"		: 	"Symphonies",
+					"By"		:	"Gustav Mahler",
+					"Pages"		:	[639],
+					"Quote"		:	["She also listened to music.  The elderly dowager had sent over a box of classical music cassettes: Mahler symphonies, Haydn chamber music, Bach keyboard pieces - all varieties and types of classical music."]
+				},
+				{
+					"Chapter" 	: 	5,
+					"Title" 	:	"No matter how long you keep quiet",
+					"Character" :	"Aomame",
+					"Song"		: 	"Chamber music",
+					"By"		:	"Joseph Haydn",
+					"Pages"		:	[639],
+					"Quote"		:	["She also listened to music.  The elderly dowager had sent over a box of classical music cassettes: Mahler symphonies, Haydn chamber music, Bach keyboard pieces - all varieties and types of classical music."]
+				},
+				{
+					"Chapter" 	: 	5,
+					"Title" 	:	"No matter how long you keep quiet",
+					"Character" :	"Aomame",
+					"Song"		: 	"Keyboard pieces",
+					"By"		:	"J.S. Bach",
+					"Pages"		:	[639],
+					"Quote"		:	["She also listened to music.  The elderly dowager had sent over a box of classical music cassettes: Mahler symphonies, Haydn chamber music, Bach keyboard pieces - all varieties and types of classical music."]
+				},
+				{
+					"Chapter" 	: 	5,
+					"Title" 	:	"No matter how long you keep quiet",
+					"Character" :	"Aomame",
+					"Song"		: 	"Sinfonietta",
+					"By"		:	"Leoš Janacek",
+					"Pages"		:	[640],
+					"Quote"		:	["There was a tape of Janáček's Sinfonietta as well, which she had specifically requested.  She would listen to the Sinfonietta once a day as she noiselessly went through her exercise routine."]
+				},
+				{
+					"Chapter" 	: 	6,
+					"Title" 	:	"By the pricking of my thumbs",
+					"Character" :	"Tengo",
+					"Song"		: 	"N/A",
+					"By"		:	"Yosui Inoue",
+					"Pages"		:	[656],
+					"Quote"		:	["Tengo wasn't into karaoke, but he did manage one Yosui Inoue song he vaguely remembered."]
+				},
+				{
+					"Chapter" 	: 	9,
+					"Title" 	:	"Before the exit is blocked",
+					"Character" :	"Tengo",
+					"Song"		: 	"N/A",
+					"By"		:	"Grand Funk Railroad",
+					"Pages"		:	[688],
+					"Quote"		:	["The shirt had a large smiley face on it.  The last time Tengo had seen a smiley face was the beginning of the 1970s, back when Grand Funk Railroad rattled the jukeboxes with their crazy loud songs."]
+				},
+				{
+					"Chapter" 	: 	10,
+					"Title" 	:	"Gathering solid leads",
+					"Character" :	"Ushikawa",
+					"Song"		: 	"Sinfonietta",
+					"By"		:	"Leoš Janáček",
+					"Pages"		:	[703],
+					"Quote"		:	["'It was Janáček's Sinfonietta.  Not an easy piece, by any means.  Tengo had first taken up the timpani only a few weeks before.  But even with such little preparation he played his part beautifully.  It was miraculous."]
+				},
+				{
+					"Chapter" 	: 	13,
+					"Title" 	:	"Is this what they mean by back to square one?",
+					"Character" :	"Ushikawa",
+					"Song"		: 	"Violin Concerto",
+					"By"		:	"Jean Sibelius",
+					"Pages"		:	[733,734],
+					"Quote"		:	["As he lay in the acrylic bathtub, he listened to Sibelius's violin concerto on the radio.  He didn't particularly want to listen to Sibelius - and Sibelius's concerto wasn't exactly eh right music to listen to at the end of a long day as you soaked in the tub.",
+									"Perhaps, he mused, Finnish people liked to listen to Sibelius while in a sauna during their long nights.  But in a tiny, one-unit bathroom of a two-bedroom condo in Kohinata, Bunkyo Ward, Sibelius's music was too emotional, too tense.",
+									"David Oistrakh's performance of Sibelius went through the blank half of his mind, like a gentle breeze wafting in through a wide-open entrance and out throuhg a wide-open exit."]
+				},
+				{
+					"Chapter" 	: 	13,
+					"Title" 	:	"Is this what they mean by back to square one?",
+					"Character" :	"Ushikawa",
+					"Song"		: 	"Concerto",
+					"By"		:	"Jean-Philippe Rameau",
+					"Pages"		:	[734],
+					"Quote"		:	["A concerto by Rameau would do just as well, nor would he have compainted if it had been Schumann's Carnaval."]
+				},
+				{
+					"Chapter" 	: 	13,
+					"Title" 	:	"Is this what they mean by back to square one?",
+					"Character" :	"Ushikawa",
+					"Song"		: 	"Carnaval",
+					"By"		:	"Robert Schumann",
+					"Pages"		:	[734],
+					"Quote"		:	["A concerto by Rameau would do just as well, nor would he have compainted if it had been Schumann's Carnaval."]
+				},
+				{
+					"Chapter" 	: 	13,
+					"Title" 	:	"Is this what they mean by back to square one?",
+					"Character" :	"Ushikawa",
+					"Song"		: 	"Sinfonietta",
+					"By"		:	"Leoš Janáček",
+					"Pages"		:	[734],
+					"Quote"		:	["The next piece, the announcer intoned, is Janáček's Sinfonietta.  Ushikawa had a vague memory of hearing the name of the piece before, but he couldn't remember exactly."]
+				},
+				{
+					"Chapter" 	: 	19,
+					"Title" 	:	"What he can do that most people can't",
+					"Character" :	"Ushikawa",
+					"Song"		: 	"Old pop song",
+					"By"		:	"Kyu Sakamoto",
+					"Pages"		:	[811],
+					"Quote"		:	["Ushikawa recalled a sentimental old pop song by Kyu Sakamoto.  It began: Look up at the night sky / see the little stars.  He didn't know how the rest of it went and he really didn't care to know."]
+				},
+				{
+					"Chapter" 	: 	20,
+					"Title" 	:	"One aspect of my transformation",
+					"Character" :	"Aomame",
+					"Song"		: 	"Sinfonietta",
+					"By"		:	"Leoš Janáček",
+					"Pages"		:	[814],
+					"Quote"		:	["As she listened to Janáček's Sinfonietta, the sound down low, she stretched and then truned to her exercise machien to do some resistance training."]
+				},
+				{
+					"Chapter" 	: 	24,
+					"Title" 	:	"Leaving the cat town",
+					"Character" :	"Tengo",
+					"Song"		: 	"Der Ring des Nibelungen (Götterdämmerung)",
+					"By"		:	"Richard Wagner",
+					"Pages"		:	[858],
+					"Quote"		:	["Stately was the last word you would use to describe it.  And there was certainly no Götterdämmerung music as a send-off."]
+				},
+				{
+					"Chapter" 	: 	31,
+					"Title" 	:	"Like a pea in a pod",
+					"Character" :	"Tengo and Aomame",
+					"Song"		: 	"Paper Moon",
+					"By"		:	"Nat King Cole",
+					"Pages"		:	[914],
+					"Quote"		:	["She suddenly remembered something Leader had said on the stormy night, before he died.  Lyrics to a song.  She could recall them all, even now.",
+									"It's a Barnum and Bailey world, / Just as phony as it can be, / But it wouldn't be make-believe / If you believed in me.",
+									"No matter what happens, no matter what I have to do, I have to make it real, not make-believe.  No - the two of us, Tengo and I, have to od that.  We have to make it real.  We have to put our strength together, every last ounce of strength we possess.  For our sake, and for the sake of this little one."]
+				}
+				]
+}
