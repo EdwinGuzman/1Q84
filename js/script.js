@@ -98,9 +98,9 @@ var get_table = function(book) {
 					$('#input').val(songname+" "+byartist);
 				}
 
-				$('#video-container').fadeIn('slow');
-				$('#videoPlayer').html('');
-				document.getElementById('formbutton').click();
+				// $('#video-container').fadeIn('slow');
+				// $('#videoPlayer').html('');
+				//document.getElementById('formbutton').click();
 			});
 		});
 	});
